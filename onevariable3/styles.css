@@ -1,0 +1,120 @@
+/*控制筛选器面板，有id的用id，没有id的参考css源码*/
+  
+html {
+    font-family: "Microsoft YaHei",sans-serif;
+    -ms-text-size-adjust: 110%;
+    -webkit-text-size-adjust: 110%;
+  }
+body {
+  font-family: "Microsoft YaHei","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+#controls {
+background-color:white;
+border-color: transparent;
+padding: 0 10px 10px 10px;
+}
+
+#text1 {
+background-color:transparent;
+border-color: transparent;
+/*border:1px solid #ccc;*/
+border:none;
+}
+
+
+/*控制水平分割线的上下留白*/
+hr {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    
+  }
+
+h5, h6 {
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+/*控制表格标题的上下留白*/
+caption {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+/*控制整个DT表格的样式，上下边框*/
+  .dataTable {
+    border-top: 1px solid #111;
+  }
+/*带点的为class,一类起作用*/  
+  .shiny-plot-output {
+    margin: 0 auto;
+  } 
+
+.shiny-text-output {
+  font-family: "Microsoft YaHei","Menlo","Monaco","Consolas","Courier New",monospace;
+  font-size:16px;
+}
+
+/*DT表格整体居中*/ 
+  .datatables  {
+    margin: 0 auto; 
+  }
+
+/*左侧菜单中短线灰色*/
+/* 
+.nav-stacked>li+li+li+li+li+li+li+li+li+li+li {
+    /* margin-top: 2px; */
+    /* margin-left: 0; */
+    /*color: #ddd;
+    /*margin: 0 auto;
+} 
+*/
+
+.table > tbody > tr > td {
+  border-top: none;
+}
+
+#plot1 {
+  margin: 0 auto; 
+}
+
+#filter1 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter2 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter3 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter4 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter5 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter6 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter7 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter8 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter9 {
+  font-weight:bold;
+  color: #337ab7;
+}
+#filter10 {
+  font-weight:bold;
+  color: #337ab7;
+}
